@@ -35,25 +35,46 @@ GF2_sum_3 = 0
 
 
 ## Problem 6
-def mySum(L): pass
+def mySum(L):
+    current = 0
+    for x in L:
+        current = current + x
+    return current
 
 
 
 ## Problem 7
-def myProduct(L): pass
+def myProduct(L):
+    current = 1
+    for x in L:
+        current = current * x
+    return current
 
 
 
 ## Problem 8
-def myMin(L): pass
+def myMin(L):
+    current = L[0]
+    for x in L:
+        if x < current:
+            current = x
+    return current
 
 
 
 ## Problem 9
-def myConcat(L): pass
+def myConcat(L):
+    current = ""
+    for x in L:
+        current = current + x
+    return current
 
 
 
 ## Problem 10
-def myUnion(L): pass
+def myUnion(L):
+    current = set()
+    for x in L:
+        current |= x
+    return current
 
