@@ -21,17 +21,17 @@ def myFunctionComposition(f, g): return {k:g[f[k]] for k in f.keys()}
 ## Problem 4
 # Please only enter your numerical solution.
 
-complex_addition_a = ... 
-complex_addition_b = ...
-complex_addition_c = ...
-complex_addition_d = ...
+complex_addition_a = 5 + 3j
+complex_addition_b = 1j
+complex_addition_c = -1 + .001j
+complex_addition_d = .001 + 9j
 
 
 
 ## Problem 5
-GF2_sum_1 = ...
-GF2_sum_2 = ...
-GF2_sum_3 = ...
+GF2_sum_1 = 1
+GF2_sum_2 = 0
+GF2_sum_3 = 0
 
 
 ## Problem 6
